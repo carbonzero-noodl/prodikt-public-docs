@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprodikt_public_docs=self.webpackChunkprodikt_public_docs||[]).push([[6134],{3971:function(o){o.exports=JSON.parse('{"permalink":"/prodikt-public-docs/build/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

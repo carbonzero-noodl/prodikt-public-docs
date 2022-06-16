@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprodikt_public_docs=self.webpackChunkprodikt_public_docs||[]).push([[3959],{6294:function(s){s.exports=JSON.parse('{"label":"docusaurus","permalink":"/prodikt-public-docs/build/blog/tags/docusaurus","allTagsPath":"/prodikt-public-docs/build/blog/tags","count":4}')}}]);
