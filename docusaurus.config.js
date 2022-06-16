@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://carbonzero-noodl.github.io/',
+  url: 'https://carbonzero-noodl.github.io',
   baseUrl: '/prodikt-public-docs/build/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

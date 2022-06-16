@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkprodikt_public_docs=self.webpackChunkprodikt_public_docs||[]).push([[3176],{3637:function(o){o.exports=JSON.parse('{"permalink":"/prodikt-public-docs/build/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

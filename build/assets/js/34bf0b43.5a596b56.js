@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkprodikt_public_docs=self.webpackChunkprodikt_public_docs||[]).push([[2298],{1288:function(l){l.exports=JSON.parse('{"label":"hola","permalink":"/prodikt-public-docs/build/blog/tags/hola","allTagsPath":"/prodikt-public-docs/build/blog/tags","count":1}')}}]);
