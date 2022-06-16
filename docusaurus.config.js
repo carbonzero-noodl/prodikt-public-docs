@@ -9,17 +9,17 @@ const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
   url: 'https://carbonzero-noodl.github.io/',
-  baseUrl: '/prodikt-public-docs/build',
+  baseUrl: '/prodikt-public-docs',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Prodikt', // Usually your GitHub org/user name.
+  organizationName: 'carbonzero-noodl', // Usually your GitHub org/user name.
   projectName: 'prodikt-public-docs', // Usually your repo name.
   deploymentBranch: 'main',
-  trailingSlash: false,
+  trailingSlash: true,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
