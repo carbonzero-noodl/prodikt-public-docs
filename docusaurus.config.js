@@ -9,7 +9,7 @@ const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
   url: 'https://carbonzero-noodl.github.io/',
-  baseUrl: '/prodikt-public-docs',
+  baseUrl: '/prodikt-public-docs/build/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
