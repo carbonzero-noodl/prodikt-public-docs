@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "vitepress": "^1.0.0-alpha.2",
+    "vue": "^3.2.37"
+  },
+  "name": "prodikt-public-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carbonzero-noodl/prodikt-public-docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carbonzero-noodl/prodikt-public-docs/issues"
+  },
+  "homepage": "https://github.com/carbonzero-noodl/prodikt-public-docs#readme",
+  "description": ""
+}
