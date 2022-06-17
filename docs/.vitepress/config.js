@@ -2,7 +2,7 @@ const primarySidebar = [{ text: "Our Story", link: "/about/our-story" }];
 
 export default {
   // These are app level configs.
-  title: 'VitePress',
+  title: 'VitePressz',
   description: 'Vite & Vue powered static site generator.',
   base: '/prodikt-public-docs/',
   lang: 'se-SV',
