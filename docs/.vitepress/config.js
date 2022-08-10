@@ -1,17 +1,14 @@
 const primarySidebar = [{ text: "Our Story", link: "/about/our-story" }];
 
 export default {
-    // These are app level configs.
     title: '',
     description: 'Prodikt public documentation.',
-    base: '/documentation',
+    base: '/',
     lang: 'se-SV',
     themeConfig: {
         logo: 'public/logo_black.svg',
         siteTitle: false,
         sidebar: {
-            // This sidebar gets displayed when user is
-            // under `guide` directory.
             '/': [
                 {
                     text: 'Så fungerar Prodikt',
@@ -33,16 +30,13 @@ export default {
                 }
             ],
 
-            // This sidebar gets displayed when user is
-            // under `config` directory.
             '/changelog/': [
                 {
                     text: 'changelog',
                     items: [
-                        // This shows `/guide/index.md` page.
-                        { text: 'Index', link: '/config/' }, // /config/index.md
-                        { text: 'Three', link: '/config/three' }, // /config/three.md
-                        { text: 'Four', link: '/config/four' } // /config/four.md
+                        { text: 'Index', link: '/config/' },
+                        { text: 'Three', link: '/config/three' },
+                        { text: 'Four', link: '/config/four' }
                     ]
                 }
             ]
