@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a,d as r}from"./app.5502e05d.js";const m=JSON.parse('{"title":"Det h\xE4r \xE4r Prodikt","description":"","frontmatter":{},"headers":[],"relativePath":"documentation/index.md"}'),n={name:"documentation/index.md"},o=r("",5),i=[o];function d(s,p,l,c,k,h){return a(),e("div",null,i)}var g=t(n,[["render",d]]);export{m as __pageData,g as default};
