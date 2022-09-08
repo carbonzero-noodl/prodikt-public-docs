@@ -4,52 +4,41 @@ export default {
     // These are app level configs.
     title: '',
     description: 'Prodikt public documentation.',
-    base: '/documentation',
+    base: '/',
     lang: 'se-SV',
     themeConfig: {
-        logo: 'public/logo_black.svg',
+        logo: '/logo_black.svg',
         siteTitle: false,
-        sidebar: {
-            // This sidebar gets displayed when user is
-            // under `guide` directory.
-            '/': [
-                {
-                    text: 'Så fungerar Prodikt',
+        sidebar: [
+           {
+                    text: 'Det här är Prodikt',
                     collapsible: true,
                     collapsed: false,
                     items: [
-                        {text: 'Så funkar det', link: '/documentation/about/'},
-                        {text: 'about', link: '/documentation/about/'},
-                        {text: 'climate declaration', link: '/documentation/climate-declaration/'},
+                        {text: 'Det här är Prodikt', link: '/documentation/kom_igang/'},
+                        {text: 'Navigerar', link: '/documentation/navigera/'},
                     ]
                 },
                 {
-                    text: 'System',
+                    text: 'Klimatdeklaration',
                     collapsible: true,
                     collapsed: true,
                     items: [
-                        {text: 'Så här fungerar system', link: '/documentation/systems/'},
+                        {text: 'Klimatdeklaration', link: '/documentation/klimatdeklaration/Klimatdeklaration'},
                     ]
-                }
-            ],
-
-            // This sidebar gets displayed when user is
-            // under `config` directory.
-            '/changelog/': [
+                },
                 {
-                    text: 'changelog',
+                    text: 'Funktioner',
+                    collapsible: true,
+                    collapsed: true,
                     items: [
-                        // This shows `/guide/index.md` page.
-                        { text: 'Index', link: '/config/' }, // /config/index.md
-                        { text: 'Three', link: '/config/three' }, // /config/three.md
-                        { text: 'Four', link: '/config/four' } // /config/four.md
+                        {text: 'Funktioner', link: '/documentation/funktioner/'},
                     ]
-                }
-            ]
-        },
+                },
+        ],
         nav: [
-            { text: 'Dokumentation', link: '/documentation/' },
-            { text: 'Versionshistorik', link: '/changelog/' }
+            //{ text: 'Dokumentation', link: '/documentation/' },
+            //{ text: 'Versionshistorik', link: '/changelog/' }
         ],
         socialLinks: [
             { icon: 'facebook', link: 'https://www.facebook.com/prodikt1' },
