@@ -13,7 +13,3 @@ ___Fördelar med att klimatdeklarera i just Prodikt___
 - _Helt unik informationskvalitet - möjlighet till uppföljning och interna målvärden_
 - _Precisa beräkningar - både EPD*-specifika och generiska värden_
 - _Projektanpassad - stöder projektprocessen vad gäller import av till exempel kalkylfiler, BIM-modeller och Team-funktion_
-
-
-###
-Kom igång direkt! Ring Pierre omedelbart.
