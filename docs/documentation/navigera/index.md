@@ -2,10 +2,10 @@
 
 Här kan du hitta det du behöver i listan. Listan går igenom de väsentligaste och är ett stöd för dig som användare. Tveka inte att kontakta oss om du saknar någon information eller om vi kan bli tydligare.
 
-- [Produktmeny](https://docs.prodikt.com/xxxxx/xxxxx)
-- [Sök](https://docs.prodikt.com/xxxxx/xxxxx)
-- [Användarinställningar](link)
-- [Efterfråga produkter](link)
+- [Produktmeny]
+- [Sök]
+- [Användarinställningar]
+- [Efterfråga produkter]
 - [Tillverkare inloggning]
-- [Information & Support](link)
+- [Information & Support]
 - Fler punkter kommer 
