@@ -31,7 +31,7 @@ export default {
                     items: [
                         {text: 'Huvudmeny', link: '/documentation/navigera/huvudmeny/'},
                         {text: 'Efterfråga produkter', link: '/documentation/navigera/efterfraga_produkter/'},
-                        {text: 'Information & support', link: '/documentation/navigera/information_&_support/'},
+                        {text: 'Information & support', link: '/documentation/navigera/information_support/'},
                         {text: 'Tillverkare-inloggning', link: '/documentation/navigera/tillverkare_inloggning/'}
                     ]
                 },
