@@ -53,6 +53,7 @@ export default {
                     collapsed: true,
                     items: [
                         {text: 'Introduktion', link: '/documentation/klimatdeklaration/'},
+                        {text: 'Så här gör du', link: '/documentation/klimatdeklaration/sa_har_gor_du/'},
                     ]
                 },
                 
