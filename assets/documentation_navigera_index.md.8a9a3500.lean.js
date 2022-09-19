@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as i,d as t}from"./app.b3d21fca.js";const u=JSON.parse('{"title":"Navigera","description":"","frontmatter":{},"headers":[],"relativePath":"documentation/navigera/index.md"}'),n={name:"documentation/navigera/index.md"},r=t("",3),o=[r];function l(d,s,_,c,m,g){return i(),a("div",null,o)}var v=e(n,[["render",l]]);export{u as __pageData,v as default};
