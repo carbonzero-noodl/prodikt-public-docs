@@ -7,7 +7,7 @@ I Prodikt Docs så hittar du allt du behöver för att komma igång med att för
 Om du inte hittar det du behöver eller har förslag på förbättringar. [Kontakta oss!](https://app.prodikt.com/#/main/contact)
 
 
- ![Project team in Prodikt](/logo_black.svg)
+ ![Project team in Prodikt](/image_meeting_big1920x1080.jpg)
 
 
 ## Klimatdeklarera i Prodikt

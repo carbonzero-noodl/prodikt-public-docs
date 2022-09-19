@@ -7,7 +7,7 @@ export default {
     base: '/',
     lang: 'se-SV',
     themeConfig: {
-        logo: '/logo_black.svg',
+        logo: '/logo_green.svg',
         siteTitle: false,
         sidebar: [
           

@@ -1,13 +1,14 @@
 # Så går det till
 
-När du sökt och lagt till produkter i ditt projekt eller importerat från din befintliga fil så aktiverar du klimatdeklarationen. Du kan ta bort produkter under tiden din deklaration är aktiverad. Informationen låses inte förrän du tryckt på Generera.
+![Klimatdeklaration](/ui-climatedecl-tab.png)
 
-När du trycker Aktivera Klimatdeklaration kommer informationen från ditt projekt automatiskt struktureras i enighet med lagkravet och föras över in i din deklaration.
+När du sökt och lagt till produkter i ditt projekt eller importerat från din befintliga fil så aktiverar du klimatdeklarationen. Du kan ta bort produkter under tiden din deklaration är aktiverad. Informationen låses inte förrän du tryckt på **Generera Klimatdeklaration** i sista steget. 
 
-När du är redo att generera din klimatdeklaration så exporteras den till ett digitalt dokument (PDF) som ni sedan uppfyller kravet för att få ett slutbesked enligt plan- och bygglagen, samt för registrering hos Boverket. Byggnad
+När du trycker **Aktivera Klimatdeklaration** kommer informationen från ditt projekt automatiskt struktureras i enighet med lagkravet och föras över in i din deklaration.
 
-Prodikt kommer även att spara en kopia av er deklaration i 5 år, detta inklusive versionshantering av alla inkluderad produkter. Detta för att säkerställa att ni på ett smidigt vis kan tillgodose lagen och dess krav på aktiveringstid.
+När du är redo att generera din klimatdeklaration så exporteras den till en fil att skicka in eller ladda upp hos Boverket.
 
+:bulb: Prodikt kommer även att spara en kopia av er deklaration i 5 år, detta inklusive versionshantering av alla inkluderad produkter. Detta för att säkerställa att ni på ett smidigt vis kan tillgodose lagen och dess krav på aktiveringstid.
 
 
 ## Aktivera funktionen 
