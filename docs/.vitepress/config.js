@@ -2,7 +2,7 @@ const primarySidebar = [{ text: "Our Story", link: "/about/our-story" }];
 
 export default {
     // These are app level configs.
-    title: '',
+    title: 'Prodikt Docs',
     description: 'Prodikt public documentation.',
     base: '/',
     lang: 'se-SV',
@@ -59,7 +59,7 @@ export default {
                 
         ],
         nav: [
-            //{ text: 'Dokumentation', link: '/documentation/' },
+            { text: 'Öppna Prodikt', link: 'https://app.prodikt.com' },
             //{ text: 'Versionshistorik', link: '/changelog/' }
         ],
         socialLinks: [

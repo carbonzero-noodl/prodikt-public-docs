@@ -1,3 +1,5 @@
+![Project team in Prodikt](/image_meeting_big1920x1080.jpg)
+
 Prodikt är ett kraftfullt verktyg för dig som vill ha kontroll över ditt byggprojekt och byggprocessen från början till slut.
 
 # Produktsida & system
@@ -39,7 +41,7 @@ Det är kostnadsfritt att skapa ditt konto i Prodikt. Du skapar ditt konto med h
 
 För att lägga produkter och system någonstans så behöver du skapa ett projekt med ditt konto.
 
-	
+
 
 
 

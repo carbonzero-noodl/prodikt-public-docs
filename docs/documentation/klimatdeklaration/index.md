@@ -11,6 +11,8 @@ Syftet med lagen om klimatdeklaration för nya byggnader är att bidra till att 
 
 **Enkel Klimatdeklaration i Prodikt**
 
+![Klimatdeklaration](/ui-climatedecl-tab.png)
+
 När du byggt ditt projekt i Prodikt eller importerat ett befintligt projekt så kommer du enkelt kunna klimatdeklarera din byggnad enligt Boverkets bestämmelser. Du hittar alltid den uppdaterade informationen i Boverkets [handbok](https://www.boverket.se/sv/klimatdeklaration/)
 
 

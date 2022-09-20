@@ -1,27 +1,28 @@
-# Det här är Prodikt
+---
+layout: home
 
-Att enkelt kunna beräkna och veta exakt vilken klimatpåverkan en byggnad har inte varit självklart. Med [Prodikt](https://app.prodikt.com/)  så har man kontroll under hela byggprocessen. Från tidigt skede med generisk data, till inbyggda material i en färdig byggnad.
+title: Prodikt
+titleTemplate: Simplifying today for a better tomorrow
 
-I Prodikt Docs så hittar du allt du behöver för att komma igång med att förenkla ditt arbete och spara massor av tid. Du hittar all dokumentation i sidomenyn, där du även kan söka efter information. 
+hero:
+  name: Prodikt
+  text: Vi förenklar idag för en bättre framtid
+  tagline: Prodikt är en digital plattform där arkitekter, tillverkare, fastighetsägare och byggföretag kan samarbeta genom hela byggprocessen.
+  actions:
+    - theme: brand
+      text: Öppna Prodikt
+      link: 'https://app.prodikt.com'
+    - theme: alt
+      text: Kom igång
+      link: '/documentation/kom_igang/kom_igang/'
 
-Om du inte hittar det du behöver eller har förslag på förbättringar. [Kontakta oss!](https://app.prodikt.com/#/main/contact)
-
-
- ![Project team in Prodikt](/image_meeting_big1920x1080.jpg)
-
-
-## Klimatdeklarera i Prodikt
-_Lagen om klimatdeklarationer för byggnader började gälla den 1 januari 2022. Lagen berör nya byggnader där bygglov söks från och med det datumet, och syftet är att minska klimatpåverkan från byggskedet. Den nya lagen innebär att byggherren ska redovisa den klimatpåverkan som uppstår under byggskedet i en så kallad klimatdeklaration som ska registreras hos Boverket i Boverkets register för klimatdeklarationer._
-
-__För att kraftfullt minska koldioxidutsläppen från bygg- och fastighetsbranschen finns ett stort behov av att enkelt mäta klimatpåverkan från material som används vid byggnationer. Dessutom finns det således nu också ett akut behov av verktyg som kan hantera och skapa klimatdeklarationer för inregistrering hos Boverket.__
-
-__Prodikt__ – en hållbarhetsplattorm för produkter (byggmaterial och möbler) och projekt har funnits fullt tillgänglig sedan maj, 2021 och nu kommer en kraftfull och vital uppgradering som kommer att betydligt underlätta för byggbranschens berörda aktörer. Möjligheten att klimatdeklarera kommer i samband med den största uppdateringen hittills för Prodikt, där bland andra team-funktion och att arbeta med importerade BIM-filer finns.
-
-Viljan av att minska klimatavtrycket från branschen har ökat de senaste åren. Det är mycket positivt. Nu kommer det då ett lagkrav och ett regelverk som pekar ut riktningen också officiellt. Då krävs det ett konkret och pedagogiskt verktyg. Den nyutvecklade digitala plattformen Prodikt - www.prodikt.com, gör det möjligt att på ett enkelt sätt få veta olika byggmaterials hållbarhetsprestanda samt att skapa en klimatdeklaration med hög kvalitet på ett enkelt sätt.
-
-___Fördelar med att klimatdeklarera i just Prodikt___
-
-- _Enkelt och pedagogiskt - passar både specialisten och nybörjaren_
-- _Helt unik informationskvalitet - möjlighet till uppföljning och interna målvärden_
-- _Precisa beräkningar - både EPD*-specifika och generiska värden_
-- _Projektanpassad - stöder projektprocessen vad gäller import av till exempel kalkylfiler, BIM-modeller och Team-funktion_
+features:
+  - title: "Kom igång direkt"
+    details: Inga nerladdningar. Kom igång direkt i din webbläsare.
+  - title: Samlad data
+    details: Vi samlar data från olika källor och sammanställer den på ett sätt som ingen gjort tidigare.
+  - title: Samarbete
+    details: Skapa team och jobba i projekt tillsammans.
+  - title: Klimatdeklaration
+    details: Exportera en klimatdeklaration baserad på generisk och specifik miljödata.
+---
