@@ -26,3 +26,4 @@ features:
   - title: Klimatdeklaration
     details: Exportera en klimatdeklaration baserad på generisk och specifik miljödata.
 ---
+

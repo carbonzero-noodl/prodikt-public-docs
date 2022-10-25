@@ -45,6 +45,7 @@ export default {
                         {text: 'Importera projekt', link: '/documentation/funktioner/importera_projekt/'},
                         {text: 'Samarbeta', link: '/documentation/funktioner/samarbeta/'},
                         {text: 'Sök & filtrera', link: '/documentation/funktioner/sok_och_filtrera/'},
+                        {text: 'Byggsystem', link: '/documentation/funktioner/byggsystem/'},
                     ]
                 },
                 {

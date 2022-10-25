@@ -15,5 +15,3 @@ För att ge användare möjlighet att summera hela byggprojekt så är generisk 
 ## Produktsidans information
 
 Beskrivning av produktsidan här.
-
-
