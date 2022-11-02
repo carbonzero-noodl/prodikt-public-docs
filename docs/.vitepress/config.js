@@ -67,6 +67,8 @@ export default {
         socialLinks: [
             { icon: 'facebook', link: 'https://www.facebook.com/prodikt1' },
             { icon: 'instagram', link: 'https://www.instagram.com/prodikt' },
+            { icon: 'youtube', link: 'https://www.youtube.com/@prodikt' },
+            { icon: 'twitter', link: 'https://www.twitter.com/@prodiktofficial' },
             { icon: 'linkedin', link: 'https://www.linkedin.com/company/prodikt' }
         ]
     }

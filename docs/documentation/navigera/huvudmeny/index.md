@@ -18,7 +18,9 @@ Sök mer hjälp av text. Du kan söka på en mängd olika parametrar som:
 
 ## Språk
 
-Just nu stödjer Prodikt Engelska och Svenska.
+Just nu stödjer Prodikt:
+- 🇬🇧 Engelska
+- 🇸🇪 Svenska
 
 ## Användare
 
