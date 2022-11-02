@@ -46,6 +46,7 @@ export default {
                         {text: 'Samarbeta', link: '/documentation/funktioner/samarbeta/'},
                         {text: 'Sök & filtrera', link: '/documentation/funktioner/sok_och_filtrera/'},
                         {text: 'Byggsystem', link: '/documentation/funktioner/byggsystem/'},
+                        {text: 'Skapa produkt', link: '/documentation/funktioner/skapa_produkt/'},
                     ]
                 },
                 {
