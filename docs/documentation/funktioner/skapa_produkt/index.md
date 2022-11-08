@@ -72,7 +72,7 @@ När du sparat i det sista steget så läggs produkten till i din produktsamling
 
 ::: info ℹ️ Bra att veta
 Det finns tre nivåer av indelningen av produkter och system i Prodikt:
-- Produktkategori
-	- Produktfamilj
-		- Produktgrupp
+- Produktkategori - Exempel: Bygg och konstruktion
+	- Produktfamilj - Exempel: Yttertak
+		- Produktgrupp - Exempel: Plåttak
 :::
