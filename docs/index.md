@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: Öppna Prodikt
-      link: 'https://app.prodikt.com'
+      link: "https://app.prodikt.com"
     - theme: alt
       text: Kom igång
-      link: '/documentation/kom_igang/kom_igang/'
+      link: "/documentation/kom-igang"
 
 features:
   - title: "Kom igång direkt"
@@ -26,4 +26,3 @@ features:
   - title: Klimatdeklaration
     details: Exportera en klimatdeklaration baserad på generisk och specifik miljödata.
 ---
-

@@ -1,75 +1,82 @@
+import { loadEnv } from "vitepress";
 const primarySidebar = [{ text: "Our Story", link: "/about/our-story" }];
 
-export default {
-    // These are app level configs.
-    title: 'Prodikt Docs',
-    description: 'Prodikt public documentation.',
-    base: '/',
-    lang: 'se-SV',
-    themeConfig: {
-        logo: '/logo_green.svg',
-        siteTitle: false,
-        sidebar: [
-          
-                     {
-                    text: 'Kom igång',
-                    collapsible: true,
-                    collapsed: true,
-                    items: [
-                        {text: 'Kom igång', link: '/documentation/kom_igang/kom_igang/'},
-                        {text: 'Skapa konto', link: '/documentation/kom_igang/skapa_ett_konto/'},
-                        {text: 'Testa demoprojektet', link: '/documentation/kom_igang/testa_demoprojektet/'},
-                        {text: 'Produktsida', link: '/documentation/kom_igang/produktsida/'},
-                        {text: 'Samarbeta', link: '/documentation/kom_igang/samarbeta/'},
-                        {text: 'Sökresultat', link: '/documentation/kom_igang/sokresultat/'},
-                    ]
-                },
-                {
-                    text: 'Navigera',
-                    collapsible: true,
-                    collapsed: true,
-                    items: [
-                        {text: 'Huvudmeny', link: '/documentation/navigera/huvudmeny/'},
-                        {text: 'Efterfråga produkter', link: '/documentation/navigera/efterfraga_produkter/'},
-                        {text: 'Information & support', link: '/documentation/navigera/information_support/'},
-                        {text: 'Tillverkare-inloggning', link: '/documentation/navigera/tillverkare_inloggning/'}
-                    ]
-                },
-                {
-                    text: 'Funktioner',
-                    collapsible: true,
-                    collapsed: true,
-                    items: [
-                        {text: 'Introduktion', link: '/documentation/funktioner/introduktion/'},
-                        {text: 'Exportera projekt', link: '/documentation/funktioner/exportera_projekt/'},
-                        {text: 'Importera projekt', link: '/documentation/funktioner/importera_projekt/'},
-                        {text: 'Samarbeta', link: '/documentation/funktioner/samarbeta/'},
-                        {text: 'Sök & filtrera', link: '/documentation/funktioner/sok_och_filtrera/'},
-                        {text: 'Byggsystem', link: '/documentation/funktioner/byggsystem/'},
-                        {text: 'Skapa produkt', link: '/documentation/funktioner/skapa_produkt/'},
-                    ]
-                },
-                {
-                    text: 'Klimatdeklaration',
-                    collapsible: true,
-                    collapsed: true,
-                    items: [
-                        {text: 'Introduktion', link: '/documentation/klimatdeklaration/'},
-                        {text: 'Så här gör du', link: '/documentation/klimatdeklaration/sa_har_gor_du/'},
-                    ]
-                },
-                
-        ],
-        nav: [
-            { text: 'Öppna Prodikt', link: 'https://app.prodikt.com' },
-            //{ text: 'Versionshistorik', link: '/changelog/' }
-        ],
-        socialLinks: [
-            { icon: 'facebook', link: 'https://www.facebook.com/prodikt1' },
-            { icon: 'instagram', link: 'https://www.instagram.com/prodikt' },
-            { icon: 'youtube', link: 'https://www.youtube.com/@prodikt' },
-            { icon: 'twitter', link: 'https://www.twitter.com/@prodiktofficial' },
-            { icon: 'linkedin', link: 'https://www.linkedin.com/company/prodikt' }
-        ]
-    }
-}
+const fetchSidebar = async () => {
+  const env = loadEnv("", process.cwd());
+  const token = env.VITE_DATO_API_TOKEN;
+
+  const response = await fetch("https://graphql.datocms.com/", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+      Authorization: `Bearer ${token}`,
+    },
+    body: JSON.stringify({
+      query: /* GraphQL */ `
+        {
+          allPages {
+            category {
+              id
+            }
+            id
+            title
+            slug
+            order
+          }
+          allCategories {
+            id
+            title
+            slug
+            order
+          }
+        }
+      `,
+    }),
+  });
+
+  const { data } = await response.json();
+
+  const categories = data.allCategories
+    .sort((a, b) => (a.order > b.order ? 1 : -1))
+    .map((category) => {
+      return {
+        text: category.title,
+        collapsible: true,
+        collapsed: true,
+        items: data.allPages
+          .filter((page) => page.category.id === category.id)
+          .sort((a, b) => (a.order > b.order ? 1 : -1))
+          .map((page) => ({
+            text: page.title,
+            link: `/documentation/${page.slug}`,
+          })),
+      };
+    });
+
+  return categories;
+};
+
+export default (async () => ({
+  // These are app level configs.
+  title: "Prodikt Docs",
+  description: "Prodikt public documentation.",
+  base: "/",
+  lang: "se-SV",
+  themeConfig: {
+    logo: "/logo_green.svg",
+    siteTitle: false,
+    sidebar: await fetchSidebar(),
+    nav: [
+      { text: "Öppna Prodikt", link: "https://app.prodikt.com" },
+      //{ text: 'Versionshistorik', link: '/changelog/' }
+    ],
+    socialLinks: [
+      { icon: "facebook", link: "https://www.facebook.com/prodikt1" },
+      { icon: "instagram", link: "https://www.instagram.com/prodikt" },
+      { icon: "youtube", link: "https://www.youtube.com/@prodikt" },
+      { icon: "twitter", link: "https://www.twitter.com/@prodiktofficial" },
+      { icon: "linkedin", link: "https://www.linkedin.com/company/prodikt" },
+    ],
+  },
+}))();
