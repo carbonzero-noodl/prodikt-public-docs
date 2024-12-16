@@ -63,7 +63,7 @@ export default {
                     collapsible: true,
                     collapsed: true,
                     items: [
-                        {text: 'BIM-Manual', link: 'http://localhost:5173/bim/manual.pdf'},
+                        {text: 'BIM-Manual', link: 'https://docs.prodikt.com/bim/manual.pdf'},
                     ]
                 },
                 
