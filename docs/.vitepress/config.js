@@ -58,6 +58,14 @@ export default {
                         {text: 'Så här gör du', link: '/documentation/klimatdeklaration/sa_har_gor_du/'},
                     ]
                 },
+                {
+                    text: 'BIM',
+                    collapsible: true,
+                    collapsed: true,
+                    items: [
+                        {text: 'BIM-Manual', link: 'http://localhost:5173/bim/manual.pdf'},
+                    ]
+                },
                 
         ],
         nav: [
