@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,a as n}from"./app.a754b1b5.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"changelog/index.md"}'),o={name:"changelog/index.md"},s=n("p",null,"changelog",-1),c=[s];function r(d,_,i,l,p,h){return a(),t("div",null,c)}var g=e(o,[["render",r]]);export{f as __pageData,g as default};
